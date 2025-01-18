@@ -11,6 +11,9 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        sans: ['Inter', 'sans-serif']
+      },
       textColor: {
         primary: '#2F2F2F',
         secondary: '#717171',
