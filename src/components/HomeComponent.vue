@@ -7,11 +7,12 @@ import { fetchBooks } from '@/api/book';
 import type { BookCollection } from '@/logic/types/books';
 
 const booksData = ref<BookCollection[] | null>(null)
-
+const loading = ref<boolean>(true)
 
 onMounted(async () => {
   try {
     booksData.value = await fetchBooks();
+    loading.value = false
   } catch (error) {
     console.error('Erro ao carregar os livros:', error);
   }
@@ -22,8 +23,9 @@ onMounted(async () => {
 <template>
   <div class="bg-primary">
     <HeaderComponent />
-    <main class="mb-20">
-      <CardItem :books="booksData" />
+    <main class="mb-24 flex justify-center">
+      <img v-if="loading" src="@/assets/reload.gif" alt="Imagem de carregando" class="w-16">
+      <CardItem v-else :books="booksData" />
     </main>
     <FooterComponent />
   </div>
