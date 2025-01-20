@@ -52,3 +52,20 @@ npm run lint
 ```sh
 npm run format
 ```
+
+_____________
+
+### Screenshots
+
+![chrome_Xa15v16R4j](https://github.com/user-attachments/assets/51e331e3-a553-4914-8b85-1d1a622eb88c)
+
+![chrome_f2JiecpQmK](https://github.com/user-attachments/assets/6e593087-576c-4040-9b00-2866114a859a)
+
+![chrome_NAGSI6BZOU](https://github.com/user-attachments/assets/72f7b12e-b85e-4821-9a50-8a796e8f1d89)
+
+![chrome_NTHYZuA2Jm](https://github.com/user-attachments/assets/e0d28f3d-6962-4b34-9483-6d0afdeb5332)
+
+![chrome_YMbe0qT0iw](https://github.com/user-attachments/assets/6fc5458d-b638-4737-aa53-f4f0d94f4124)
+
+
+
