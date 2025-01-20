@@ -19,6 +19,7 @@ const openModal = ((book: BookCollection) => {
 const closeModal = (() => {
   showModal.value = false
   bookSelected.value = null
+
 })
 </script>
 
@@ -35,7 +36,7 @@ const closeModal = (() => {
           {{ book.title }}
         </h1>
         <h2 class="text-sm text-secondary font-light">
-          por {{ book.author }}
+          {{ $t('by') }} {{ book.author }}
         </h2>
         <div class="text-2xl text-primary font-extrabold text-end">
           {{ FormatHelper.formatMoney(book.price) }}
