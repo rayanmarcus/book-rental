@@ -4,11 +4,6 @@ export default {
     "./index.html",
     "./src/**/*.{vue,js,ts,jsx,tsx}",
   ],
-  safelist: [
-    {
-      pattern: /^mdi/, // Garante que as classes MDI (icons) sejam mantidas
-    },
-  ],
   theme: {
     extend: {
       fontFamily: {

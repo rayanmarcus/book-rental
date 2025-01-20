@@ -21,6 +21,8 @@
 npm install
 ```
 
+#### Lembre de duplicar o .env.example e renomeá-lo para .env para poder utilizar a API
+
 #### <span style="padding: 3px 3px; background: blue; color: #fff;">💻 Para iniciar o ambiente de desenvolvimento</span>
 
 ```sh
