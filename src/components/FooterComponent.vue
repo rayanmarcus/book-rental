@@ -5,8 +5,8 @@ const currentYear: number = new Date().getFullYear();
 
 <template>
   <footer class="bg-terciary">
-    <div class="flex items-center justify-between min-h-52 px-10">
-      <div class="flex flex-col gap-2">
+    <div class="flex flex-wrap justify-center sm:justify-between items-center gap-8 min-h-52 px-10">
+      <div class="flex flex-col gap-2 mt-5">
         <h3 class="text-2xl font-bold text-white">Redes sociais</h3>
         <div class="flex gap-2">
           <a href="#">
@@ -20,7 +20,7 @@ const currentYear: number = new Date().getFullYear();
           </a>
         </div>
       </div>
-      <div class="flex flex-col gap-2 items-center">
+      <div class="flex flex-col items-center text-center gap-2">
         <img src="@/assets/logos/logo.svg" alt="Logo Instagram" class="max-w-24" />
         <h4 class="text-2xl font-bold text-white">Meu Livro Alugado</h4>
       </div>
